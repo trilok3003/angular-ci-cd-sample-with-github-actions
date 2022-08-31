@@ -46,9 +46,9 @@ jobs:
         run: |
           npm run lint
 
-      - name: Test
-        run: |
-          npm run test  --configuration=production
+#      - name: Test
+#        run: |
+#          npm run test  --configuration=production
 
       - name: Conventional Changelog Action
         id: changelog
