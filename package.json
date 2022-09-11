@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng deploy --base-href=/angular-ci-cd-sample-with-github-actions/"
+    "deploy": "ng deploy --base-href=/angular-ci-cd-sample-with-github-actions/",
+    "build:prod": "ng build --configuration production --base-href https://trilok3003.github.io/angular-ci-cd-sample-with-github-actions/",
+    "test:headless": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
   "dependencies": {
